@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Akira Expanded';
+  src: url('/Akira Expanded Demo.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fontspring Demo';
+  src: url('/Fontspring-DEMO-integralcf-bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html,
 body,
 #root {
