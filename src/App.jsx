@@ -352,6 +352,7 @@ function ContactPage() {
                 <a
                   className="nav-pill bg-[#FFD0A6]/20 text-[#FFD0A6]"
                   href={item.href}
+                  style={{ fontFamily: titleFont }}
                   {...(item.external ? { target: "_blank", rel: "noreferrer" } : {})}
                 >
                   {item.cta}
