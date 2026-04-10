@@ -152,11 +152,11 @@ function HomePage() {
             className="mt-10 space-y-3 text-lg uppercase sm:mt-14 sm:text-xl md:text-[19px]"
             style={{ fontFamily: '"Akira Expanded", "Arial Black", sans-serif' }}
           >
-            <a href="#" className="block w-fit transition-transform hover:translate-x-1">
-              GRAB MY RESUME
+            <a href="#" className="block w-fit underline underline-offset-4 decoration-2 transition-transform hover:translate-x-1">
+              GRAB MY RESUME <span className="inline-block rotate-[-135deg]">↓</span>
             </a>
-            <NavLink to="/projects" className="block w-fit transition-transform hover:translate-x-1">
-              VIEW MY PROJECTS
+            <NavLink to="/projects" className="block w-fit underline underline-offset-4 decoration-2 transition-transform hover:translate-x-1">
+              VIEW MY PROJECTS <span className="inline-block rotate-[-135deg]">↓</span>
             </NavLink>
           </div>
 
