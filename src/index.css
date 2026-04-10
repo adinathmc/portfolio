@@ -12,9 +12,8 @@ body,
 body {
   font-family: "Fontspring Demo", Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
   background: #c80302;
-  user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
+  margin: 0;
+  line-height: 1.5;
   cursor: default;
 }
 
@@ -23,20 +22,36 @@ button {
   cursor: pointer;
 }
 
+/* Keep text selectable, but avoid I-beam cursor */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+span,
+strong,
+small,
+div {
+  cursor: default;
+}
+
 img,
 svg {
   -webkit-user-drag: none;
-  user-select: none;
 }
 
 .nav-pill {
   position: relative;
-  padding: 4px 8px;
+  padding: 6px 10px;
   border-radius: 999px;
-  transition: transform 180ms ease, background-color 180ms ease, opacity 180ms ease;
+  text-decoration: none;
+  transition: transform 180ms ease, background-color 180ms ease, opacity 180ms ease, color 180ms ease;
 }
 
 .nav-pill:hover {
-  transform: translateY(-1px);
+  transform: translateY(-2px);
   background: rgba(255, 208, 166, 0.12);
 }

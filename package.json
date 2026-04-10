@@ -1,7 +1,9 @@
 {
   "name": "react-tailwind-portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Adinath M C - Personal Portfolio",
+  "author": "Adinath M C",
   "type": "module",
   "scripts": {
     "dev": "vite",
