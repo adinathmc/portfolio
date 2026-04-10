@@ -152,9 +152,14 @@ function HomePage() {
             className="mt-10 space-y-3 text-lg uppercase sm:mt-14 sm:text-xl md:text-[19px]"
             style={{ fontFamily: '"Akira Expanded", "Arial Black", sans-serif' }}
           >
-            <a href="#" className="block w-fit underline underline-offset-4 decoration-2 transition-transform hover:translate-x-1">
-              GRAB MY RESUME <span className="inline-block rotate-[-135deg]">↓</span>
-            </a>
+            <div className="flex items-center gap-3">
+              <a href="/Adinath_M_C_Resume.pdf" target="_blank" rel="noreferrer" className="block w-fit underline underline-offset-4 decoration-2 transition-transform hover:translate-x-1">
+                GRAB MY RESUME <span className="inline-block rotate-[-135deg]">↓</span>
+              </a>
+              <a href="/Adinath_M_C_Resume.pdf" download="Adinath_M_C_Resume.pdf" className="inline-flex items-center gap-1 rounded-md bg-[#FFD0A6] px-2 py-1 text-[11px] font-bold text-[#171725] no-underline transition-transform hover:scale-105">
+                PDF<span className="text-[9px]">↓</span>
+              </a>
+            </div>
             <NavLink to="/projects" className="block w-fit underline underline-offset-4 decoration-2 transition-transform hover:translate-x-1">
               VIEW MY PROJECTS <span className="inline-block rotate-[-135deg]">↓</span>
             </NavLink>
