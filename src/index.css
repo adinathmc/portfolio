@@ -4,9 +4,10 @@
 
 @font-face {
   font-family: 'Akira Expanded';
-  src: url('/Akira Expanded Demo.otf') format('opentype');
+  src: url('/Akira%20Expanded%20Demo.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -14,6 +15,7 @@
   src: url('/Fontspring-DEMO-integralcf-bold.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 html,
@@ -25,7 +27,7 @@ body,
 
 body {
   font-family: "Fontspring Demo", Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-  background: #c80302;
+  background: #B31512;
   margin: 0;
   line-height: 1.5;
   cursor: default;

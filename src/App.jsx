@@ -47,7 +47,7 @@ function Layout({ children }) {
   return (
     <div
       className="min-h-screen pb-10 text-orange-50"
-      style={{ background: "linear-gradient(135deg, #FC3F00 0%, #C80302 100%)" }}
+      style={{ background: "linear-gradient(135deg, #E84A1A 0%, #B31512 100%)" }}
     >
       <header className={`${container} pt-6 sm:pt-8`}>
         <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
@@ -64,8 +64,7 @@ function Layout({ children }) {
                 key={label}
                 to={to}
                 className={({ isActive }) =>
-                  `nav-pill text-xs uppercase sm:text-sm ${
-                    isActive ? "bg-[#FFD0A6]/20 text-[#FFD0A6]" : "text-orange-100"
+                  `nav-pill text-xs uppercase sm:text-sm ${isActive ? "bg-[#FFD0A6]/20 text-[#FFD0A6]" : "text-orange-100"
                   }`
                 }
                 style={{ fontFamily: titleFont }}
@@ -86,8 +85,8 @@ function HomePage() {
 
   return (
     <div
-       className="min-h-screen overflow-x-hidden text-[#FFD0A6]"
-      style={{ background: "linear-gradient(135deg, #FC3F00 0%, #C80302 100%)" }}
+      className="h-screen overflow-hidden flex flex-col text-[#FFD0A6]"
+      style={{ background: "linear-gradient(135deg, #E84A1A 0%, #B31512 100%)" }}
     >
       <motion.header
         className="mx-auto flex w-[min(1280px,95vw)] items-center gap-4 px-2 pt-5 text-[11px] uppercase tracking-wide sm:gap-6 sm:pt-6 sm:text-base"
@@ -118,13 +117,13 @@ function HomePage() {
         </nav>
       </motion.header>
 
-      <main className="mx-auto grid min-h-[calc(100vh-74px)] w-[min(1280px,95vw)] grid-cols-1 items-stretch gap-2 px-2 pt-3 sm:min-h-[calc(100vh-82px)] sm:pt-4 md:grid-cols-[1.1fr_0.9fr]">
+      <main className="flex-1 mx-auto grid w-[min(1280px,95vw)] grid-cols-1 items-stretch gap-2 px-2 pt-3 sm:pt-4 md:grid-cols-[1fr_1fr]">
         <motion.section
           variants={fadeUp}
           initial="hidden"
           animate="show"
           custom={0.1}
-          className="max-w-[900px] pl-1 pt-1 sm:pl-2 sm:pt-2 md:pl-12 md:pt-8"
+          className="max-w-[900px] pl-1 pt-1 sm:pl-2 sm:pt-2 md:pl-6 md:pt-8"
         >
           <h1
             className="max-w-none text-4xl leading-[0.9] font-black sm:text-5xl md:text-[86px] md:whitespace-nowrap"
@@ -190,12 +189,12 @@ function HomePage() {
           initial="hidden"
           animate="show"
           custom={0.2}
-          className="relative flex items-end justify-center pt-8 md:justify-end"
+          className="relative flex items-end justify-center md:justify-end h-full"
         >
           <img
             src="/hero-cutout.png"
             alt="Adinath portrait"
-            className="w-[90%] max-w-[420px] sm:w-full sm:max-w-[500px] md:w-[140%] md:max-w-none lg:w-[125%] xl:w-[115%] h-auto object-bottom md:translate-x-[18%] lg:translate-x-[12%] xl:translate-x-[6%] transition-all duration-300"
+            className="w-[140%] sm:w-[150%] md:w-[170%] lg:w-[160%] xl:w-[150%] max-w-none h-auto object-contain object-bottom md:translate-x-[5%] lg:translate-x-[8%] xl:translate-x-[6%]"
             draggable="false"
           />
         </motion.div>
