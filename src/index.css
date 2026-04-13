@@ -11,8 +11,8 @@
 }
 
 @font-face {
-  font-family: 'Fontspring Demo';
-  src: url('/Fontspring-DEMO-theseasons-bd.otf') format('opentype');
+  font-family: 'Swell';
+  src: url('/Swell-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -26,7 +26,7 @@ body,
 }
 
 body {
-  font-family: "Fontspring Demo", Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-family: "Swell", Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
   background: #B31512;
   margin: 0;
   line-height: 1.5;

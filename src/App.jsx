@@ -4,7 +4,7 @@ import { education, profile, projects, roles, skills } from "./data/profile";
 
 const container = "mx-auto w-[min(1120px,94vw)]";
 const titleFont = '"Akira Expanded", "Arial Black", sans-serif';
-const bodyFont = '"Fontspring Demo", "Trebuchet MS", sans-serif';
+const bodyFont = '"Swell", "Trebuchet MS", sans-serif';
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
   show: (delay = 0) => ({
@@ -142,7 +142,7 @@ function HomePage() {
           </p>
           <p
             className="mt-4 max-w-[700px] text-[20px] leading-[1.14] font-semibold sm:text-[22px] md:text-[20px]"
-            style={{ fontFamily: '"Fontspring Demo", "Trebuchet MS", sans-serif' }}
+            style={{ fontFamily: '"Swell", "Trebuchet MS", sans-serif' }}
           >
             I am Adinath, a Computer Science student at CUSAT with a passion for
             AI, automation, and Backend development. I build things that are
