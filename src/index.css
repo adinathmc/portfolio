@@ -11,8 +11,8 @@
 }
 
 @font-face {
-  font-family: 'Swell';
-  src: url('/Swell-Regular.otf') format('opentype');
+  font-family: 'Kame Free';
+  src: url('/KameFree.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -26,7 +26,7 @@ body,
 }
 
 body {
-  font-family: "Swell", Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-family: "Kame Free", Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
   background: #B31512;
   margin: 0;
   line-height: 1.5;
